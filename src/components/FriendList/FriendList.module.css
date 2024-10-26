@@ -1,0 +1,18 @@
+.friendsData {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.friendsItem {
+  display: flex;
+
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 4px;
+
+  border: 1.5px solid black;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const TransactionHistory = ({ items }) => {
   return (
-    <ul className={s.table}>
+    <div className={s.table}>
       <table>
         <thead>
           <tr>
@@ -23,7 +23,7 @@ const TransactionHistory = ({ items }) => {
           ))}
         </tbody>
       </table>
-    </ul>
+    </div>
   );
 };
 
